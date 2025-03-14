@@ -26,7 +26,7 @@ public class Tärningskast {
         System.out.print("Ange antalet tärningskast: ");
         int antalKast = input.nextInt();
 
-        int kast = (int) (Math.random() * 6) + 1;
+        int kast = (int) (Math.random() * 6) + 1;   // Slumpar ett tal mellan 0 och 0.99999
         int sexor = 0;
         int i = 0;
         while (i < antalKast) {
@@ -34,7 +34,7 @@ public class Tärningskast {
                 sexor++;
             }
             i++; // Delfråga b) Denna rad måste finnas annars har vi en loop som aldrig avslutas
-            kast = (int) (Math.random() * 6) + 1;
+            kast = (int) (Math.random() * 6) + 1;   // Slumpar ett tal mellan 0 och 0.99999
         }
         System.out.println("Antal sexor: " + sexor);
     }

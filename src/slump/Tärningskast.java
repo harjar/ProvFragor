@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package slump;
 
 import java.util.Scanner;
@@ -26,7 +22,7 @@ public class Tärningskast {
         System.out.print("Ange antalet tärningskast: ");
         int antalKast = input.nextInt();
 
-        int kast = (int) (Math.random() * 6) + 1;   // Slumpar ett tal mellan 0 och 0.99999, kan sättas till noll, se kommentar på rad 37
+        int kast = (int) (Math.random() * 6) + 1;   // Slumpar ett tal mellan 0 och 0.99999, kan sättas till noll, se kommentar på rad 33
         int sexor = 0;
         int i = 0;
         while (i < antalKast) {

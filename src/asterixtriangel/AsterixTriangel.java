@@ -10,6 +10,7 @@ public class AsterixTriangel {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.print("Ange antalet rader trangeln ska ha: ");
         int rader = input.nextInt();
 

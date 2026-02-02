@@ -1,6 +1,6 @@
 /*
     Vilken typ av fel ser du i programmet nedan?
-    Hur löser du felet, ange vad och vilken/vilka rader du behöver skriva om för att programmet ska ge korrekt resultat.
+    Hur löser du felet, ange vad och vilken/vilka rad/rader du behöver skriva om för att programmet ska ge korrekt resultat.
  */
 package summaMedel;
 

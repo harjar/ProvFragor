@@ -18,15 +18,15 @@ public class SummaMedel {
         int summa = 0;
         double medel;
         do {
-            System.out.print("Ange ett heltal (avsluta med ett tal mindre än eller lika med noll): ");
+            System.out.print("Ange ett heltal (avsluta med ett negativt tal): ");
             tal = input.nextInt();
-            if (tal > 0) {
+            if (tal >= 0) {
                 heltal[antal++] = tal;
             } else {
                 break;
             }
 
-        } while (tal > 0 && antal < heltal.length);
+        } while (tal >= 0 && antal < heltal.length);
 
         for (int i = 0; i < heltal.length; i++) {
             summa += heltal[i];

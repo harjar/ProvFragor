@@ -1,6 +1,8 @@
 /*
+    Vad blir fel i programkörningen
     Vilken typ av fel ser du i programmet nedan?
-    Hur löser du felet, ange vad och vilken/vilka rad/rader du behöver skriva om för att programmet ska ge korrekt resultat.
+    ??Hur löser du felet, ange vad och vilken/vilka rad/rader du behöver skriva om för att programmet ska ge korrekt resultat.
+    Ange vad du behöver göra för att programmet ska göra korrekt.
  */
 package summaMedel;
 

@@ -18,7 +18,7 @@ public class SummaMedel {
         int summa = 0;
         double medel;
         do {
-            System.out.print("Ange ett heltal: ");
+            System.out.print("Ange ett heltal (avsluta met ett tal mindre än eller lika med noll): ");
             tal = input.nextInt();
             if (tal > 0) {
                 heltal[antal++] = tal;
